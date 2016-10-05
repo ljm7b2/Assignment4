@@ -1,0 +1,5 @@
+package asteroidplugin1.handlers;
+
+public interface AsteroidPlugin1Interface {
+
+}

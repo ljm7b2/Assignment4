@@ -1,0 +1,11 @@
+package asteroidplugin1.handlers;
+import clock.Clock;
+
+
+public interface AsteroidPlugin1Interface {
+	
+	void PlayGame();
+	Clock NewClock();
+
+
+}

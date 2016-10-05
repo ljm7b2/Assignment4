@@ -1,0 +1,45 @@
+package clock;
+
+import asteroidplugin1.handlers.AsteroidPlugin1Interface;
+
+public class iClock implements AsteroidPlugin1Interface {
+	
+	Clock clock;
+
+	public iClock() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void setPaused(boolean paused) {
+		// TODO Auto-generated method stub
+		clock.setPaused(paused);
+		
+	}
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		clock.update();
+		
+	}
+
+	@Override
+	public boolean hasElapsedCycle() {
+		// TODO Auto-generated method stub
+		return clock.hasElapsedCycle();
+	}
+
+	@Override
+	public boolean isPaused() {
+		// TODO Auto-generated method stub
+		return clock.isPaused();
+	}
+
+	@Override
+	public void NewObject(int frames_per_second) {
+		// TODO Auto-generated method stub
+		clock = new Clock(frames_per_second);
+	}
+
+}
