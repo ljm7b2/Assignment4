@@ -1,0 +1,37 @@
+package asteroid2;
+
+import asteroid1.iPlayer;
+
+public class MasterPlayer implements iPlayer {
+
+	public MasterPlayer() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String SetMaxVelocity() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String SetRotationSpeed() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String SetMaxBullets() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String SetFireRate() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+
+}

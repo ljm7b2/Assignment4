@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: AsteroidPlugin2
-Bundle-SymbolicName: AsteroidPlugin2
-Bundle-Version: 1.0.0.qualifier
-Bundle-Vendor: Luke McDuff
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Require-Bundle: AsteroidPlugin1;bundle-version="1.0.0"

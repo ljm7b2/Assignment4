@@ -1,0 +1,65 @@
+package asteroid1.handlers;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.eclipse.core.commands.AbstractHandler;
+import org.eclipse.core.commands.ExecutionEvent;
+import org.eclipse.core.commands.ExecutionException;
+import org.eclipse.core.runtime.CoreException;
+import org.eclipse.core.runtime.IConfigurationElement;
+import org.eclipse.core.runtime.Platform;
+
+import asteroid1.Game;
+import asteroid1.iBullet;
+import asteroid1.iClock;
+import asteroid1.iPlayer;
+
+/**
+ * Our sample handler extends AbstractHandler, an IHandler base class.
+ * @see org.eclipse.core.commands.IHandler
+ * @see org.eclipse.core.commands.AbstractHandler
+ */
+public class SampleHandler extends AbstractHandler {
+
+	@Override
+	public Object execute(ExecutionEvent event) throws ExecutionException {
+
+		evaluateExtension();
+		//Game.main(null);
+		return null;
+	}
+	
+	  private Map<String, String> evaluateExtension() {
+		  int count = 0;
+		  Map<String, String> GameArgs = new HashMap<String,String>();
+
+			IConfigurationElement[] config = Platform.getExtensionRegistry()
+					.getConfigurationElementsFor("Asteroid.ext1");
+			try {
+				for (IConfigurationElement e : config) {
+					System.out.println("Evaluating extension: " + e.getAttributeNames()[0]);					
+					final Object o = e.createExecutableExtension(e.getAttributeNames()[0]);
+					
+					
+					if (o instanceof iPlayer) {
+						count++;
+
+					}
+					else if (o instanceof iClock) {
+						count++;
+
+					}
+					else if(o instanceof iBullet){
+						count++;
+						
+					}					
+				}
+				
+			return GameArgs;
+			} catch (CoreException ex) {
+				System.out.println(ex.getMessage());
+				return null;
+			}
+	  }
+}

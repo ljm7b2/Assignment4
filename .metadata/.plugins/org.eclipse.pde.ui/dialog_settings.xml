@@ -5,7 +5,7 @@
 	<item value="false" key="apiAnalysis"/>
 	<item value="false" key="rcpPlugin"/>
 	<item value="false" key="osgiProject"/>
-	<item value="false" key="generatePluginActivator"/>
+	<item value="true" key="generatePluginActivator"/>
 	<list key="providers">
 		<item value="Luke McDuff"/>
 	</list>

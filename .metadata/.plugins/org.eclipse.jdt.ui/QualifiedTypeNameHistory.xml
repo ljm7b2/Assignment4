@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="asteroidplugin1.main.Game"/>
-<fullyQualifiedTypeName name="clock.iClock"/>
-<fullyQualifiedTypeName name="asteroidplugin1.util.Clock"/>
-<fullyQualifiedTypeName name="asteroidplugin1.handlers.AsteroidPlugin1Interface"/>
-<fullyQualifiedTypeName name="clock.Clock"/>
+<fullyQualifiedTypeName name="asteroid1.Game"/>
+<fullyQualifiedTypeName name="org.eclipse.core.runtime.Platform"/>
+<fullyQualifiedTypeName name="asteroid1.iPlayer"/>
+<fullyQualifiedTypeName name="org.eclipse.core.runtime.CoreException"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="asteroid1.iClock"/>
+<fullyQualifiedTypeName name="org.eclipse.core.runtime.IConfigurationElement"/>
+<fullyQualifiedTypeName name="asteroid1.iBullet"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

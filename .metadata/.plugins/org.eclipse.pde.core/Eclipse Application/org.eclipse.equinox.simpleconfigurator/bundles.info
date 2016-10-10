@@ -1,7 +1,9 @@
 #encoding=UTF-8
 #version=1
-AsteroidPlugin1,1.0.0.qualifier,file:/C:/Users/ljm7b/Documents/Assignment4/AsteroidPlugin1/,4,false
-AsteroidPlugin2,1.0.0.qualifier,file:/C:/Users/ljm7b/Documents/Assignment4/AsteroidPlugin2/,4,false
+Asteroid1,1.0.0.qualifier,file:/C:/Users/ljm7b/Documents/Assignment4_4/Asteroid1/,4,false
+Asteroid2,1.0.0.qualifier,file:/C:/Users/ljm7b/Documents/Assignment4_4/Asteroid2/,4,false
+Asteroid3,1.0.0.qualifier,file:/C:/Users/ljm7b/Documents/Assignment4_4/Asteroid3/,4,false
+Asteroid4,1.0.0.qualifier,file:/C:/Users/ljm7b/Documents/Assignment4_4/Asteroid4/,4,false
 ch.qos.logback.classic,1.0.7.v20121108-1250,file:/C:/eclipse-jee-neon-R-win32-x86_64/eclipse/plugins/ch.qos.logback.classic_1.0.7.v20121108-1250.jar,4,false
 ch.qos.logback.core,1.0.7.v20121108-1250,file:/C:/eclipse-jee-neon-R-win32-x86_64/eclipse/plugins/ch.qos.logback.core_1.0.7.v20121108-1250.jar,4,false
 ch.qos.logback.slf4j,1.0.7.v201505121915,file:/C:/eclipse-jee-neon-R-win32-x86_64/eclipse/plugins/ch.qos.logback.slf4j_1.0.7.v201505121915.jar,4,false

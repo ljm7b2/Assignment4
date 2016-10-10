@@ -1,0 +1,7 @@
+package asteroid1;
+
+public interface iPlayer {
+	
+	String MaxVelocity();
+
+}

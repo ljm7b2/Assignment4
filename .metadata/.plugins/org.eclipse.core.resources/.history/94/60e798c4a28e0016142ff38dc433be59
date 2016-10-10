@@ -1,0 +1,17 @@
+package asteroid2;
+
+import asteroid1.iPlayer;
+
+public class MasterPlayer implements iPlayer {
+
+	public MasterPlayer() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String MaxVelocity() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

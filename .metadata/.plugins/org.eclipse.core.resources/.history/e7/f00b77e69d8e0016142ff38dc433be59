@@ -1,0 +1,17 @@
+package asteroid3;
+
+import asteroid1.iBullet;
+
+public class MasterBullet implements iBullet {
+
+	public MasterBullet() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String ShootBullet() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
