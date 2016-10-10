@@ -65,7 +65,7 @@ public class SampleHandler extends AbstractHandler {
 						
 					}					
 				}
-			System.out.println(count);	
+				
 			return GameArgs;
 			} catch (CoreException ex) {
 				System.out.println(ex.getMessage());
